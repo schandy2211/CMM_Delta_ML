@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH --nodes 1
+#SBATCH --cpus-per-task 2
+#SBATCH --ntasks-per-node 128
+#SBATCH --constraint cpu
+#SBATCH --qos premium
+#SBATCH --time=10:10:00
+
+
+conda activate myenv
+python ener_pred.py >  ener_pred.out
+

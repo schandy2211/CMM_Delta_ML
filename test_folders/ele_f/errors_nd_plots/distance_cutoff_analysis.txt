@@ -1,0 +1,36 @@
+Label: Electrostatics_original
+  Range <cutoff: MAE = 63.0219, MSE = 16753.0247, R2 = 0.9309
+  Range >=cutoff: MAE = 0.8221, MSE = 2.2269, R2 = 0.9920
+Label: Charge Transfer_original
+  Range <cutoff: MAE = 82.4111, MSE = 37244.1299, R2 = 0.3549
+  Range >=cutoff: MAE = 0.3723, MSE = 1.0254, R2 = 0.5106
+Label: Pauli Repulsion_original
+  Range <cutoff: MAE = 56.0989, MSE = 26677.4632, R2 = 0.9889
+  Range >=cutoff: MAE = 0.1374, MSE = 0.0880, R2 = 0.9926
+Label: Polarization_original
+  Range <cutoff: MAE = 41.0577, MSE = 16445.7521, R2 = 0.3226
+  Range >=cutoff: MAE = 0.2775, MSE = 0.6187, R2 = 0.9875
+Label: Dispersion_original
+  Range <cutoff: MAE = 1.9258, MSE = 14.1896, R2 = 0.9876
+  Range >=cutoff: MAE = 0.0853, MSE = 0.0326, R2 = 0.9884
+Label: Total Energy_original
+  Range <cutoff: MAE = 129.3799, MSE = 83858.1711, R2 = 0.9451
+  Range >=cutoff: MAE = 0.8924, MSE = 3.2605, R2 = 0.9897
+Label: Electrostatics_delta
+  Range <cutoff: MAE = 0.3221, MSE = 0.3128, R2 = 1.0000
+  Range >=cutoff: MAE = 0.0808, MSE = 0.0137, R2 = 0.9999
+Label: Charge Transfer_delta
+  Range <cutoff: MAE = 0.5693, MSE = 9.9531, R2 = 0.9993
+  Range >=cutoff: MAE = 0.0260, MSE = 0.0022, R2 = 0.9991
+Label: Pauli Repulsion_delta
+  Range <cutoff: MAE = 0.3772, MSE = 0.8651, R2 = 1.0000
+  Range >=cutoff: MAE = 0.0243, MSE = 0.0016, R2 = 0.9999
+Label: Polarization_delta
+  Range <cutoff: MAE = 0.5641, MSE = 5.5535, R2 = 0.9998
+  Range >=cutoff: MAE = 0.0401, MSE = 0.0040, R2 = 0.9996
+Label: Dispersion_delta
+  Range <cutoff: MAE = 0.1260, MSE = 0.0505, R2 = 0.9999
+  Range >=cutoff: MAE = 0.0174, MSE = 0.0006, R2 = 0.9998
+Label: Total Energy_delta
+  Range <cutoff: MAE = 1.0872, MSE = 17.0341, R2 = 0.9998
+  Range >=cutoff: MAE = 0.0964, MSE = 0.0201, R2 = 0.9999

@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -C gpu
+#SBATCH --cpus-per-task 32
+#SBATCH -G 1
+#SBATCH -q regular
+#SBATCH -A m2834_g
+#SBATCH --ntasks-per-node=4
+#SBATCH --gpu-bind=none
+#SBATCH --time=23:59:00
+
+export OMP_NUM_THREADS=16
+export OMP_PLACES=threads
+export OMP_PROC_BIND=spread
+
+conda activate myenv
+python test_eda.py > test_eda.out
+

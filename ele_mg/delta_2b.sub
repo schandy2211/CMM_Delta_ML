@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -A m2834
+#SBATCH --nodes 1
+#SBATCH --cpus-per-task 2
+#SBATCH --ntasks-per-node 128
+#SBATCH --gpus-per-task 0
+#SBATCH --constraint cpu
+#SBATCH --qos premium
+#SBATCH --time=14:00:00
+
+module load qchem/6.0.0-cpu
+python delta_2b.py >  delta_2b.out
+

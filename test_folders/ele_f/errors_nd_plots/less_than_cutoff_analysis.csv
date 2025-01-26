@@ -1,0 +1,37 @@
+Label,Metric,Value
+Electrostatics (Original),MAE,63.0219291377107
+Electrostatics (Delta),MAE,0.32210381577567954
+Electrostatics (Original),MSE,16753.02467984314
+Electrostatics (Delta),MSE,0.3128274913140587
+Electrostatics (Original),R2,0.9309172863115602
+Electrostatics (Delta),R2,0.9999962706941993
+Charge Transfer (Original),MAE,82.41114886254816
+Charge Transfer (Delta),MAE,0.5693044415632614
+Charge Transfer (Original),MSE,37244.129875231345
+Charge Transfer (Delta),MSE,9.953133086886599
+Charge Transfer (Original),R2,0.3549206703072903
+Charge Transfer (Delta),R2,0.9992825497468816
+Pauli Repulsion (Original),MAE,56.098851515612466
+Pauli Repulsion (Delta),MAE,0.3772204617881228
+Pauli Repulsion (Original),MSE,26677.463189810805
+Pauli Repulsion (Delta),MSE,0.8650785729519759
+Pauli Repulsion (Original),R2,0.988869295966249
+Pauli Repulsion (Delta),R2,0.999998568768658
+Polarization (Original),MAE,41.057659264840375
+Polarization (Delta),MAE,0.5641455613099705
+Polarization (Original),MSE,16445.752142247115
+Polarization (Delta),MSE,5.553461540950652
+Polarization (Original),R2,0.3225788600987568
+Polarization (Delta),R2,0.9997655593210852
+Dispersion (Original),MAE,1.9258388127457575
+Dispersion (Delta),MAE,0.1260354227931649
+Dispersion (Original),MSE,14.189562239486586
+Dispersion (Delta),MSE,0.05053554820784154
+Dispersion (Original),R2,0.9875604251038529
+Dispersion (Delta),R2,0.9998987681914371
+Total Energy (Original),MAE,129.379914588008
+Total Energy (Delta),MAE,1.0871516614858472
+Total Energy (Original),MSE,83858.17112898473
+Total Energy (Delta),MSE,17.03405597667573
+Total Energy (Original),R2,0.9450787647929187
+Total Energy (Delta),R2,0.9997853085295797

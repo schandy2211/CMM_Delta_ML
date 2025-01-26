@@ -1,0 +1,7 @@
+
+Lmod is automatically replacing "gpu/1.0" with "cpu/1.0".
+
+  File "delta_2b.py", line 22
+    xyz_sobol = load_xyz(f'/pscratch/sd/s/schandy/delta_learning/new_data/dataset_v1.1/xyz/h2o_{ele}_sobol.xyz')
+                                                                                                              ^
+SyntaxError: invalid syntax
