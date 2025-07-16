@@ -1,4 +1,3 @@
-# CMM_Delta_ML
 # Delta-learning-force
 
 This project applies delta-learning to predict the difference between force field and DFT-level interaction energies for water-ion and water-water dimers.
