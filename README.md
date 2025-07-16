@@ -13,7 +13,7 @@ This project applies delta-learning to predict the difference between force fiel
 ## Results:
 - MAE: 0.28 kcal/mol (test set)
 - Pearson r: 0.95
-- Supports Br⁻, Cl⁻, Mg²⁺ clusters
+- Supports F⁻, Cl⁻, Br⁻, I⁻, K⁺, Na⁺, Mg²⁺, Ca²⁺    clusters
 
 ## How to Run:
 python predict.py input.xyz model.pt
